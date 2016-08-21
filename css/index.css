@@ -1,11 +1,22 @@
 .content {
-    width: 300px;
-    margin: auto
+    width: 1000px;
+    margin: auto;
+    background: #004D40;
 }
 .content:after {
     content: "";
     clear: both;
     display: block;
+}
+
+h1 {
+    font-family: sans-serif;
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: sans-serif;
 }
 
 ul {
@@ -16,14 +27,22 @@ ul {
 li {
     display: block;
     list-style: none;
-    height: 100px;
-    width: 100px;
-    border: 1px solid black;
+    height: 10px;
+    width: 10px;
     box-sizing: border-box;
     float: left;
-    background: blue;
+    background: #00796B;
+    border-radius: 100px;
 }
 
-.alive {
-    background: red;
+li.alive {
+    background: #B2DFDB;
+}
+
+li.dying {
+    background: #4DB6AC;
+}
+
+li.dead {
+    background: #009688;
 }
