@@ -31,18 +31,19 @@ li {
     width: 10px;
     box-sizing: border-box;
     float: left;
-    background: #00796B;
+    background-color: #00796B;
     border-radius: 100px;
+    transition: background-color 0.2s ease;
 }
 
 li.alive {
-    background: #B2DFDB;
+    background-color: #B2DFDB;
 }
 
 li.dying {
-    background: #4DB6AC;
+    background-color: #4DB6AC;
 }
 
 li.dead {
-    background: #009688;
+    background-color: #009688;
 }
